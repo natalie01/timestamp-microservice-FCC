@@ -22,9 +22,7 @@ app.get('/:dateval',function(req,res,next){
 	var convertDate = Date.parse(dateval.match(/[a-zA-Z]+|[0-9]+/g).join(" "));
 
 	if (!isNaN(dateval)) {
-		console.log('unix time' +dateval);
 		var naturalDate = moment.unix(dateval).format('LL');
-		console.log(naturalDate);
 		res.json({unix : dateval, naturalDate :naturalDate});
 
 	}else if (!isNaN(convertDate)) { 
