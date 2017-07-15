@@ -1,0 +1,17 @@
+body{
+font: 18px sans-serif;
+
+}
+
+a{
+text-decoration:none;
+}
+
+div{
+width:80%;
+margin:auto;
+background-color: bisque;
+padding: 20px;
+}
+
+.red{color:red};
