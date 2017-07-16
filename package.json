@@ -1,13 +1,17 @@
 {
   "name": "timestamp",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "dependecies": {},
-  "devDependencies": {},
+ "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "start": "app.js"
+    "start": "node app"
   },
+  "engines": {
+    "node": "8.1.4",
+    "npm": "5.3.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
     "cors": "^2.8.4",
